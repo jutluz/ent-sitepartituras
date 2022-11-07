@@ -11,7 +11,7 @@ def teste():
     resposta = ("Funcionando")
     return resposta
 
-# curl -X POST localhost:5000/login -d '{"login":"lauraprof@gmail.com","senha":"lauraprof123"}' -H 'Content-Type: application/json'
+# curl -X POST localhost:5000/login -d '{"login":"catarinaaluna@gmail.com","senha":"cata123"}' -H 'Content-Type: application/json'
 @app.route("/login", methods=['POST'])
 def login():
     dados = request.get_json(force=True) # requisita os dados
